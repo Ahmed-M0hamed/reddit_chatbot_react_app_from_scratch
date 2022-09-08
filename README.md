@@ -32,4 +32,6 @@ npm install
 npm start 
 ``` 
 
+### the bot can be improved by using bigger  and more topic specific dataset 
+
 
