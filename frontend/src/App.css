@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+#chatbox {
+  background-color: white ; 
+  width : 500px  ;
+  border-radius: 15px; 
+  margin: 10px;
+  color: black;
+}
+
+input {
+  width: 300px; 
+  height: 20px ;
+  border-radius: 10px;
+  border : none ; 
+  padding-left: 10px;
+  
+}
+
+button {
+
+  margin : 15px;
+  width: 180px;
+  height: 40px;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  color: #fff;
+  background: linear-gradient(180deg, #2f5894 0%, #173b7c 100%);
+  background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+h3 {margin:  5px ;}
+
+.chatChunk {
+  background-color:cadetblue; 
+  width :400px ; 
+  font-size: small ;
+  font-weight: bold; 
+  padding : 5px 10px  ;
+  border-radius: 10px;
+  display: block ;
+  text-align: left;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.chatChunk span {
+  background-color: white ;
+  padding: 0px 10px; 
+  border-radius:5px ;
+  margin-right: 5px; }
